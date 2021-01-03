@@ -1,0 +1,113 @@
+.post-tag {
+    color: #39739d;
+    background-color: #e1ecf4;
+    border-color: #00000000;
+    text-decoration: none;
+
+    display: inline-block;
+    padding: .4em .5em;
+    margin: 2px 2px 2px 0;
+    font-size: 11px;
+    line-height: 1;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.post-tag:hover {
+    background-color:#d1e5f1;
+    border-color:#d1e5f1;
+  }
+
+.bars-wrap {
+    margin: 0 0 0 0;
+}
+
+.bar.flex{
+    width: 100%;
+}
+
+.bar span {
+    display: initial;
+}
+
+ .bar span {
+    padding: 0 15px 0 0;
+    z-index: 1;
+    font-size: 10pt;
+}
+
+.flex-50-gt-sm {
+    box-sizing: border-box;
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bar:nth-child(1) .fill {
+    transition: 1.1s 0.2s width ease-in-out;
+}
+
+.skillName {
+    width: 110px;
+}
+
+.bold {
+    font-family: "Raleway-bold";
+}
+
+.bar .tag {
+    left: 0;
+    position: absolute;
+    top: 0;
+    background-color: #04c2c9;
+    color: #fff;
+    height: 100%;
+    width: 110px;
+    width: 70px;
+    font-size: 13px;
+}
+ 
+.bar .fill {
+left: 0;
+position: absolute;
+top: 0;
+background-color: #00a1a7;
+opacity: 1;
+padding: 0;
+}
+
+.bar {
+    max-width: 90%;
+    font-size: 13pt;
+    height: 35px;
+    align-items: flex-end;
+    background-color: #eee;
+    color: #666;
+    margin: 0 0 15px 0;
+    position: relative;
+}
+
+.bar.fill:hover {
+    opacity: 0.5;
+   
+  }
