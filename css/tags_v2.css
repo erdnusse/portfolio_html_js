@@ -111,3 +111,26 @@ padding: 0;
     opacity: 0.5;
    
   }
+
+.cr-badges-full-badge__img{
+    height: 120px;
+    width: 120px;
+}
+
+
+.img_text_container {
+    height: 125px;
+    margin: auto;
+  }
+  
+  .left {
+    width: 20%;
+    height: 125px;  
+    float: left;
+  }
+  
+  .right {
+    width: 80%;
+    height: 125px;
+    line-height: 1.1;
+  }
